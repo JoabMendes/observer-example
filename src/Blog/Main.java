@@ -1,7 +1,7 @@
 package Blog;
 
 import Post.Comment;
-import Post.CommentForm;
+import Forms.CommentForm;
 import Observers.*;
 
 public class Main {

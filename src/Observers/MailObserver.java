@@ -1,6 +1,6 @@
 package Observers;
 
-import Post.CommentForm;
+import Forms.CommentForm;
 
 public interface MailObserver {
 	public void update(CommentForm data);

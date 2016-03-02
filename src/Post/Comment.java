@@ -2,6 +2,7 @@ package Post;
 
 import java.util.ArrayList;
 
+import Forms.CommentForm;
 import Observers.MailObserver;
 
 public class Comment {
@@ -31,7 +32,7 @@ public class Comment {
 		this.observers.remove(obs);
 	}
 	
-	public void notifyObservers(CommentForm data){
+	private void notifyObservers(CommentForm data){
 		if(this.observers.size() > 0){
 			System.out.println("Notifing observers...");
 			for(int i = 0; i < this.observers.size(); i++){
