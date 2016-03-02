@@ -9,7 +9,7 @@ de comentário permite o acoplamento dinâmico de observers que serão notificad
 de um comentário em um post. Este diagrama de classes representa a estrutura deste exemplo:
 
 
-![class diagram](http://classdiagram.adresss)
+![class diagram](https://raw.githubusercontent.com/JoabMendes/observer-example/master/src/Project/ObserverClassDiagram.png)
 
 
 A sequência de execução deste exemplo se dá pela postagem de um comentário:
@@ -20,7 +20,6 @@ cada `Observer` acoplado na classe `Comment`.
 ##Exemplo de execução
 
 ```
-Java
 
 //Cria um instância de comentário
 Comment comentario = new Comment();
