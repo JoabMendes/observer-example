@@ -19,8 +19,7 @@ cada `Observer` acoplado na classe `Comment`.
 
 ##Exemplo de execução
 
-```
-
+```Java
 //Cria um instância de comentário
 Comment comentario = new Comment();
 
@@ -34,5 +33,16 @@ CommentForm data = new CommentForm(1, 3, 50, "Um comentário qualquer");
 
 //Posta um comentário
 comentario.postComment(data);
+
+```
+
+Log:
+
+```
+Post comentado com 'Um comentário qualquer'
+Notifing observers...
+MailAuthorObserver: Email enviado para o autor do post comentado.
+MailCommenterObserver: Email enviado para o usuario que comentou.
+MailFriendsObserver: Email enviado para os amigos do usuario que comentou.
 
 ```
